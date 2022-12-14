@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
+/**
  * main -to print with puts inbuild func
  *
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
