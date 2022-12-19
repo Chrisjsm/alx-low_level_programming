@@ -1,9 +1,13 @@
 #include "main.h"
 /**
  * _puts - print a string and new line to stdout
- * Return: 0
+ * @str: string to be printed
  */
 void _puts(char *str)
 {
-	putchar(*str, "%s\n")
+	while (*str != '\0')
+	{
+		putchar(*str++);
+	}
+	_putchar('\n');
 }
