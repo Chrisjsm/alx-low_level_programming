@@ -13,7 +13,12 @@ char _strcat(char *dest, const char *src)
 	while (dest[index++])
 		dest_len++;
 
+<<<<<<< HEAD
+
+
+=======
 	for (index = 0; src[index]; index++)
 		dest[dest_len++] = src[index];
 	return (dest);
 }
+>>>>>>> a06cbeb7529931e628a17642cea8a59aa093c396
