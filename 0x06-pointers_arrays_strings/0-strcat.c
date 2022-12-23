@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _strcat -add str pointed to src to dest
- * @dest: pointer 1
- * @src: poibter 2
+ * *_strcat -add str pointed to src to dest
+ * @dest: pointer one
+ * @src: pointer two
+ *
  * Return: pointer to dest
  */
 char *_strcat(char *dest, const char *src)
