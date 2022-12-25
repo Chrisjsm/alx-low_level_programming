@@ -2,8 +2,9 @@
 /**
  * print_sign - print sign of a num
  * @n: num be checked
- *Return:1 && print + if n > 0 :-1 && print - if n < 0
+ * Return: 1 && print + in > 0 :-1 && print - if num
  */
+
 int print_sign(int n)
 {
 	if (n > 0)
