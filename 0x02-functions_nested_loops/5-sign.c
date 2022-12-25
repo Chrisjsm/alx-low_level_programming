@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_sign - print sign of a num
  * @n: num be checked
@@ -19,7 +20,7 @@ int print_sign(int n)
 	}
 	else
 	{
-		_putchar('_');
+		_putchar('-');
 		return (-1);
 	}
 }
