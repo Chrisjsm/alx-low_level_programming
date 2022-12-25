@@ -1,10 +1,13 @@
 #include "main.h"
 /**
  * int _abs - find abs val of an int
- *
- * Return: 0
+ *@n: int in question
+ * Return: abs of n
  */
-int _abs(int)
+int _abs(int n)
 {
-
+	if (n >= 0)
+		return (n);
+	else
+		return (-n);
 }
