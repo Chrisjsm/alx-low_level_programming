@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * more_numbers - print more nums
  * Return: void
  */
+
 void more_numbers(void)
 {
 	int i, j;
@@ -14,8 +16,8 @@ void more_numbers(void)
 			if (j >= 10)
 			{
 				_putchar('1');
+				_putchar (j % 10 + '0');
 			}
-			_putchar (j % 10 + '0');
 		}
 		_putchar('\n');
 	}
