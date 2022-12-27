@@ -2,12 +2,15 @@
 /**
  * _puts - print a string and new line to stdout
  * @str: string to be printed
+ * Return: the length of the string
  */
 void _puts(char *str)
 {
-	while (*str != '\0')
+	int i = 0;
+
+	while (str[i] != '\0')
 	{
-		putchar(*str++);
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
