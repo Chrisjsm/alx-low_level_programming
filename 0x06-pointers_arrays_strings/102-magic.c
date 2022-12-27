@@ -11,10 +11,10 @@ int main(void)
 	/*
 	 * write your code here
 	 * Remember:
-	 * do not use a
-	 * do not modify p
-	 * only one statement
-	 * nothing else than than this
+	 * - do not use a
+	 * - do not modify p
+	 * - only one statement
+	 * - nothing else than than this
 	 */
 	*(p + 5) = 98;
 	/*...so that this prints 98\n */
